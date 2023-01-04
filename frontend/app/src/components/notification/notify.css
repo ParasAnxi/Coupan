@@ -1,0 +1,32 @@
+.notify {
+	width: 95%;
+	animation: 1s ease-in notifyload;
+}
+@keyframes notifyload {
+	0% {
+		transform: scale(0.6);
+	}
+	50% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+.success {
+	padding: 4px;
+	color: black;
+	background-color: rgba(162, 254, 24, 0.827);
+}
+
+.failure {
+	padding: 4px;
+	color: white;
+	background-color: rgba(255, 30, 30, 0.773);
+}
+
+.warning {
+	padding: 4px;
+	color: white;
+	background-color: rgba(255, 132, 0, 0.852);
+}

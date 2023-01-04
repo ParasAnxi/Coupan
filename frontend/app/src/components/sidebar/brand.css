@@ -1,0 +1,17 @@
+.select-brands {
+	padding: 0;
+	list-style-type: none;
+}
+.select-brands {
+	list-style-type: none;
+	display: none;
+	padding: 0;
+}
+.select-brands.active {
+	display: block;
+}
+
+.brand-container {
+	display: flex;
+	flex-direction: column;
+}

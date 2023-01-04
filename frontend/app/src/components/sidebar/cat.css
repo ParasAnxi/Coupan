@@ -1,0 +1,12 @@
+.select-cat {
+	list-style-type: none;
+	display: none;
+	padding: 0;
+}
+.select-cat.active {
+	display: block;
+}
+.category-container {
+	display: flex;
+	flex-direction: column;
+}

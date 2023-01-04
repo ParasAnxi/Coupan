@@ -1,0 +1,10 @@
+.signup-container > .links {
+	text-align: center;
+}
+
+.signup-container > .links:hover {
+	cursor: pointer;
+}
+.signup-label {
+	margin-bottom: 2em;
+}

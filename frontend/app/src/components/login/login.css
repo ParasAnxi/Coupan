@@ -1,0 +1,10 @@
+.login-container > .links {
+	text-align: center;
+}
+
+.login-container > .links:hover {
+	cursor: pointer;
+}
+.login-label {
+	margin-bottom: 2em;
+}

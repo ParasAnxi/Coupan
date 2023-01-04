@@ -1,0 +1,46 @@
+.sidebar > div > div {
+	margin-bottom: 1em;
+}
+.search-body-sidebar {
+	display: block;
+}
+.category,
+.brands {
+	background-color: #fafafa;
+	width: 95%;
+	padding: 2em;
+	box-sizing: border-box;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+		rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.category > div {
+	padding: 2px;
+}
+
+.category > div > label,
+.brands > div > label {
+	padding-left: 3px;
+	font-size: medium;
+}
+
+.select-label {
+	text-align: left;
+	width: 100%;
+	padding: 10px 15px;
+	font-size: large;
+	border: 1px solid lightgrey;
+}
+.options {
+	text-align: left;
+	width: 100%;
+	padding: 10px 15px;
+	font-size: large;
+	border: 1px solid lightgrey;
+}
+
+@media only screen and (max-width: 768px) {
+	.search-body-sidebar {
+		display: none;
+	}
+}

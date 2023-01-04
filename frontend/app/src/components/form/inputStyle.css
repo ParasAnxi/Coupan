@@ -1,0 +1,28 @@
+.input-group {
+}
+
+.input-group > label {
+	margin: 0.5em 0;
+	width: 100%;
+}
+.input-group:nth-last-child(2) input[type="submit"] {
+	color: white;
+	background-color: rgb(211, 53, 53);
+}
+
+.input-group:nth-last-child(2) input[type="submit"]:hover {
+	color: white;
+	background-color: rgba(199, 51, 51, 0.819);
+}
+
+.input-group > label > input {
+	display: block;
+	margin: 0.2em 0em;
+	font-size: medium;
+	border: 0.5px lightgrey solid;
+	padding: 0.5em;
+}
+
+input {
+	width: 100%;
+}

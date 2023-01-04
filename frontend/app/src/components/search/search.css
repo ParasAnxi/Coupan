@@ -1,0 +1,22 @@
+.search {
+	padding: 1em;
+	background-color: #fafafa;
+	width: 95%;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.search-area {
+	display: flex;
+}
+.search-area > input,
+.search-area > button {
+	border-radius: 0;
+}
+@media only screen and (max-width: 768px) {
+	.search {
+		padding: 1em;
+		background-color: #fafafa;
+		width: 100%;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	}
+}
